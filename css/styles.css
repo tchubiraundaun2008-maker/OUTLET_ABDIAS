@@ -9,3 +9,15 @@
     margin: 10% auto;
     padding: 70px;
 }
+
+.produtos img {
+    width:180px;
+    height:200px;
+    border-radius: 10px;
+
+}
+
+.produtos img:hover {
+    transform: scale(1.2);
+}
+    
