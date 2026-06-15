@@ -10,6 +10,11 @@
     padding: 70px;
 }
 
+.produtos{
+    display: flex;
+    justify-content: center;
+}
+
 .produtos img {
     width:180px;
     height:200px;
@@ -19,5 +24,42 @@
 
 .produtos img:hover {
     transform: scale(1.2);
+}
+
+.titulo_prod{
+    font-weight: bold;
+    font-family: calibri;
+    padding-top: 10px;
+    color: #4f4f4f;
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+}
+
+.texto_prod{
+    font-family: calibri;
+    color: #4f4f4f;
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+}
+
+.linha_prod{
+    flex: 1;
+}
+
+.btn_soma{
+    display: flex;
+    justify-content: center;
+}
+
+.qtd_prod{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_subtrai{
+    display: flex;
+    justify-content: center;
 }
     
